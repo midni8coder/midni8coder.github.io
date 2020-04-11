@@ -1052,7 +1052,7 @@ section {
     position: inherit;
     left: 0;
     bottom: 0;
-    width: 1047px;
+    width: 100%;
     z-index: 9999;
     background: #040b14;
 }
