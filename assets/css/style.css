@@ -321,16 +321,16 @@ section {
   color: #173b6c;
 }
 
-.about .content ul {
+ ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+ ul li {
   padding-bottom: 10px;
 }
 
-.about .content ul i {
+ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #149ddd;
