@@ -207,7 +207,7 @@
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
                         <div class="progress">
-                            <span class="skill">Python - Basic libraries(list, loop, file, OOP )  <i class="val">Proficient</i></span>
+                            <span class="skill">Python - Basic libraries(list, loops, files, OOP )  <i class="val">Proficient</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -417,23 +417,21 @@
                             <h4>Talking Bot - Major Academic Project</h4>
                             <h5>Dec 2016 – March 2017</h5>
                             <p>
-                                <b>Requirement: </b> To provide a common place for any communication between the students it may be general or educational QA topics
+                                <b>Requirement: </b> To develop a conversational bot which takes voice inputs, process it and returns a voice response
                             </p>
                             <p><b>Key Features: </b> </p>
                             <ul>
-                                <li><i class="icofont-rounded-right"></i> Register and Login pages </li>
-                                <li><i class="icofont-rounded-right"></i> Create mail, Inbox, Sentbox, Drafts, Trash and QA Forum </li>
-                                <li><i class="icofont-rounded-right"></i> Web and Desktop versions of the application</li>
+                                <li><i class="icofont-rounded-right"></i> System should be loaded with domain knowledge </li>
+                                <li><i class="icofont-rounded-right"></i> If response for the given input is not there in it's knowledge base, it should record it in Database </li>
                             </ul>
                             <p><b>Development: </b> </p>
                             <ul>
-                                 <li><i class="icofont-rounded-right"></i>Designed a Register page to take student basic info and a password to authenticate while loggin in</li>
-                                 <li><i class="icofont-rounded-right"></i>After logging in, user will be given with Inbox, SentBox, Drafts and Trash tabs to navigate through them. A button to create new conversation by providing recipient id</li>
-                                 <li><i class="icofont-rounded-right"></i>All these data will be managed by using a single table in MySQL Database</li>
-                                 <li><i class="icofont-rounded-right"></i>Finally, built a Desktop verion of the same application </li>
-
+                                 <li><i class="icofont-rounded-right"></i>Used a conversational AIML dataset and loaded data using python </li>
+                                 <li><i class="icofont-rounded-right"></i>SpeechRecognition module will take voice input from user,  converts it into text and passes to python module </li>
+                                 <li><i class="icofont-rounded-right"></i>Python module will parse the text, inputs it to AIML dataset and gets the reponse </li>
+                                 <li><i class="icofont-rounded-right"></i>TTS module will convert the response text to speech and outputs it to the user </li>
                             </ul>
-                            <p><b>Technical Stuff: </b> HTML, CSS3, JavaScript, JSP, JDBC, MySQL, Net Beans, Apache Tomcat</p>
+                            <p><b>Technical Stuff: </b> Python(SpeechRecognition, Text to speech), NLTK, AIML</p>
                     </div>
                 </div>
                 <br />
