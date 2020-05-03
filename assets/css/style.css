@@ -8,6 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.logo-img-small {
+    margin-bottom: -58px;
+    height: 40px;
+    vertical-align: middle
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
