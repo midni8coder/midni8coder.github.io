@@ -13,6 +13,9 @@
     height: 40px;
     vertical-align: middle
 }
+.services a {
+  color: #149ddd !important;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
